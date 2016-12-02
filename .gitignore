@@ -1,0 +1,6 @@
+npm-debug.log*
+node_modules
+test/assets/migrations/1.2.0
+test/assets/migrations/1.3.0
+test/assets/migrations/1.4.0
+test/assets/test.db

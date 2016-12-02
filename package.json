@@ -1,0 +1,48 @@
+{
+  "name": "dbm",
+  "version": "0.0.1",
+  "description": "Node Database Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morrelinko/node-dbm.git"
+  },
+  "keywords": [
+    "dbm",
+    "database",
+    "db",
+    "utility"
+  ],
+  "author": "Laju Morrison <morrelinko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morrelinko/node-dbm/issues"
+  },
+  "homepage": "https://github.com/morrelinko/node-dbm#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "deep-assign": "^2.0.0",
+    "fs-jetpack": "^0.10.3",
+    "knex": "^0.12.6",
+    "lodash": "^4.17.2",
+    "semver": "^5.3.0",
+    "simplerror": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-html": "^1.7.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.2.0",
+    "should": "^11.1.1",
+    "sinon": "^1.17.6"
+  },
+  "optionalDependencies": {
+    "mysql": "2.11.1",
+    "sqlite3": "^3.1.8"
+  }
+}
